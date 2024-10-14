@@ -1,0 +1,15 @@
+.me__animation {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+    margin: auto 0;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width:620px) {
+    .me__animation {
+        margin-bottom: 20px;
+    }
+}
+

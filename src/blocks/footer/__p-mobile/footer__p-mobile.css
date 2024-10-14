@@ -1,0 +1,15 @@
+.footer__p-mobile {
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #050024;
+margin: 0 20px 0 0;
+    }
+    
+    @media (min-width: 620px) {
+        .footer__p-mobile {
+    display: none;
+        }
+    }

@@ -1,0 +1,10 @@
+
+    .portfolio__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    position: relative;
+    border-radius: 24px;
+  }

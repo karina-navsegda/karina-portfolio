@@ -1,0 +1,16 @@
+.me__p {
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+color: #050024;
+position: relative;
+margin: 0;
+}
+
+@media (max-width: 620px) {
+    .me__p {
+        display: none;
+    }
+}

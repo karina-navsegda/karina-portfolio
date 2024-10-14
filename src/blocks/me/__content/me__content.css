@@ -1,0 +1,9 @@
+.me__content {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 424px;
+    margin-top: 80px;
+}

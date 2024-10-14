@@ -1,0 +1,11 @@
+.footer__mob {
+    display: flex;
+    margin-bottom: 24px;
+    align-items: flex-end;
+}
+
+@media (min-width: 620px) {
+    .footer__mob {
+display: none;
+    }
+}

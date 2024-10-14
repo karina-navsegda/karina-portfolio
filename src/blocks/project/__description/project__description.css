@@ -1,0 +1,11 @@
+
+.project__description {
+    margin-bottom: 120px;
+    list-style: none; 
+}
+
+@media (max-width: 620px) {
+    .project__description {
+        margin-bottom: 80px;
+    }
+}

@@ -1,26 +1,41 @@
-import me from "../../../images/me.jpg";
-import { Link } from "react-router-dom";
+import React, { useRef, useState } from "react";
+import Header from "../../header/Header";
+import video from "../../../images/4897804698602659690.MP4";
+
 function AboutMe() {
+  const videoRef = useRef(null);
+  const [isEnlarged, setIsEnlarged] = useState(false);
+
+  const handleVideoClick = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted; 
+      videoRef.current.currentTime = 0; 
+    }
+    setIsEnlarged(!isEnlarged);
+  };
+
   return (
     <section className="me" id="me">
-      <h2 className="me__title">Студент</h2>
-      <div className="me__profile">
-        <div className="me__text">
-          <div className="me__info">
-            <p className="me__name">Карина</p>
-            <p className="me__prof">Веб-дизайнер) 24 года</p>
-            <p className="me__about">
-              Я родился в Москве в 70-м на краю города, закончил факультет
-              социологии СПБГУ. У меня нет жены и дочери. Я люблю слушать
-              музыку, а ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года
-              работал в компании «СКБ Контур». После того, как прошёл курс по
-              веб-разработке, начал заниматься фриланс-заказами и ушёл с
-              постоянной работы.
-            </p>
+      <Header />
+      <div className="me__container">
+        <div className="me__circle-p">
+          <div className="me__animation">
+            <video 
+              ref={videoRef} 
+              className={`me__video ${isEnlarged ? 'enlarged' : ''}`} 
+              muted 
+              onClick={handleVideoClick} 
+              autoPlay
+              loop
+            >
+              <source src={video} type="video/mp4" />
+              Ваш браузер не поддерживает видео.
+            </video>
+            <div className="me__circle"></div>
           </div>
-          <Link to="https://github.com/karina-navsegda" className="me__disclaimer" target="_blank">Github</Link>
+          <p className="me__p">этот сайт задизайнен, сверстан и разработан полностью мной</p>
         </div>
-        <img className="me__photo" src={me} alt="Тут моя фотография" />
+        <h2 className="me__title">привет!<br/>я веб-дизайнер<br/>из казани</h2>
       </div>
     </section>
   );

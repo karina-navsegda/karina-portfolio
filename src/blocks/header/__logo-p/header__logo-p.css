@@ -1,0 +1,10 @@
+.header__logo-p {
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 550;
+font-size: 32px;
+line-height: 36px;
+color: #050024;
+margin: 0;
+width: max-content;
+}

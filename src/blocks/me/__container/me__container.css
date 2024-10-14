@@ -1,0 +1,16 @@
+.me__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 260px; 
+}
+
+@media (max-width: 620px) {
+    .me__container {
+flex-direction: column;
+align-items: flex-start;
+height: 360px;
+    }
+}

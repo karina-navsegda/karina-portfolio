@@ -1,0 +1,22 @@
+.project__two-img {
+        display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 24px; 
+            width: 100%; 
+            row-gap: 0;
+}
+
+@media (max-width: 620px) {
+.project__two-img {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+.project__two-img > :last-child {
+    margin-right: 0; 
+}
+
+
+
+
+

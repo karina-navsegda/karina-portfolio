@@ -1,0 +1,13 @@
+.footer__video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 48px;
+}
+
+@media (max-width: 620px) {
+    .footer__video-container {
+        order: 2;
+        width: 100%;
+    }
+}

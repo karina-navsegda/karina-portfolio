@@ -1,0 +1,20 @@
+.project__title {
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+color: #050024;
+max-width: 1000px;
+margin: 0 0 8px;
+}
+
+@media (max-width:620px) {
+    .project__title {
+
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 4px;
+    }
+}

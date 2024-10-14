@@ -1,0 +1,13 @@
+.portfolio__grid {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 24px; 
+        width: 100%; 
+        row-gap: 32px;
+}
+
+@media (max-width: 720px) {
+    .portfolio__grid {
+       grid-template-columns: repeat(1, 1fr);
+    }
+}

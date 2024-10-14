@@ -1,0 +1,9 @@
+.portfolio__card {
+        border: none; 
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+   

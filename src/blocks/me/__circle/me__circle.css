@@ -1,0 +1,25 @@
+.me__circle {
+    animation: change1 4s infinite; /* Animation name, duration, infinite loop */
+    width: 100px;
+    height: 100px;
+    position: absolute; /* Position absolute */
+    background: radial-gradient(50% 50% at 50% 50%, #97B8E8 0%, rgba(200, 200, 255, 0) 100%);
+    filter: blur(40px);
+    z-index: 0;
+    border-radius: 50%; /* Ensure it’s a circle */
+    transform-origin: center; /* Set the origin for scaling */
+}
+
+@keyframes change1 {
+    0% {
+        transform: scale(1.5); /* Starting size */
+    }
+    
+    50% {
+        transform: scale(4); /* Mid-animation size */
+    }
+
+    100% {
+        transform: scale(1.5); /* Ending size */
+    }
+}

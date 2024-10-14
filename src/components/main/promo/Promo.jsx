@@ -1,9 +1,8 @@
-import kv from "../../../images/kv.svg"
 
 function Promo() {
   return (
     <section className="intro">
-    <img className="intro__kv" src={kv} alt="векторная иллюстрация" />
+    <img className="intro__kv" src={"#"} alt="векторная иллюстрация" />
     <h1 className="intro__title">
       Учебный проект студента факультета Веб-разработки.
     </h1>

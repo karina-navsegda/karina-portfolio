@@ -1,24 +1,22 @@
+import React from "react";
 import Footer from "../footer/Footer";
-import Header from "../header/Header";
 import AboutMe from "./aboutMe/AboutMe";
-import AboutProject from "./aboutProject/AboutProject";
 import Portfolio from "./portfolio/Portfolio";
-import Promo from "./promo/Promo";
-import Techs from "./techs/Techs";
 
- function Main({isLogged}) {
+
+ function Main() {
     return (
         <>
-        <Header isLogged={isLogged}/>
         <main className="main">
-            <Promo/>
-            
-            <AboutProject/>
-            <Techs/>
             <AboutMe/>
-            <Portfolio/>
+            <section id="portfolio">
+  <Portfolio />
+</section>
+<section id="footer">
+ <Footer />
+</section>
         </main>
-        <Footer/>
+       
         </>
     )
  }

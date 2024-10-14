@@ -1,32 +1,28 @@
 .me__title {
-  margin-top: 110px;
-  color: #000;
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.88px;
-  margin: 110px auto;
-  width: 100%;
-  border-bottom: #000 1px solid;
-  padding-bottom: 23px;
-}
-@media screen and (max-width: 768px) {
-    .me__title {
-        margin-top: 90px;
-        font-size: 22px;
-        line-height: normal;
-      }
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 550;
+font-size: 40px;
+line-height: 44px;
+text-align: right;
+color: #8B8B8B;
+margin: 0;
 }
 
-@media screen and (max-width: 320px) {
-  .me__title {
-      padding-bottom: 28px;
-      line-height: 22px;
-      margin-top: 70px;
-      margin-bottom: 60px;
-      font-size: 18px;
-      letter-spacing: -0.72px;
+@media (min-width: 620px) and (max-width: 1100px) {
+    .me__title {
+font-weight: 550;
+font-size: 32px;
+line-height: 36px;
+    }
+}
+
+@media (max-width: 620px) {
+    .me__title {
+font-weight: 550;
+font-size: 32px;
+line-height: 36px;
+text-align: left;
+margin-bottom: 12px;
     }
 }

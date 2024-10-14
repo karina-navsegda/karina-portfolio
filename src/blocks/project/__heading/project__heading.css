@@ -1,0 +1,29 @@
+.project__heading {
+font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 550;
+font-size: 96px;
+line-height: 100px;
+color: #050024;
+margin: 52px 0;
+position: relative;
+z-index: 1;
+}
+
+@media (min-width:620px) and (max-width: 1100px) {
+    .project__heading {
+font-weight: 550;
+font-size: 64px;
+line-height: 64px;
+    }
+}
+
+@media (max-width:620px) {
+    .project__heading {
+        
+font-weight: 550;
+font-size: 40px;
+line-height: 40px;
+
+    }
+}

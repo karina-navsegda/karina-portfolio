@@ -1,0 +1,12 @@
+.footer__mob-gif { 
+        width: 60px;
+        height: 60px;
+        border-radius: 1000px;
+    }
+    
+    
+    @media (min-width: 620px) {
+        .footer__mob-gif {
+    display: none;
+        }
+    }

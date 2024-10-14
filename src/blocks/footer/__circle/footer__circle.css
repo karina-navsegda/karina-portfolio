@@ -1,0 +1,26 @@
+.footer__circle {
+animation: change 6s infinite; 
+position: absolute;
+width: 1454px;
+height: 1458px;
+left: calc(50% - 1454px/2 + 310px);
+top: -39px;
+background: radial-gradient(50% 50% at 50% 50%, #97B8E8 0%, rgba(200, 200, 255, 0) 100%);
+filter: blur(60.4167px);
+z-index: 0;
+}
+    
+    @keyframes change {
+        0% {
+             transform: scale(1); /* Starting size */
+         }
+       
+         50% {
+             transform: scale(0.8); /* Mid-animation size */
+    
+         }
+    
+         100% {
+             transform: scale(1); /* Ending size */
+         }
+     }
