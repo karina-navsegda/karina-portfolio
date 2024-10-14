@@ -34,7 +34,7 @@ function Footer() {
                 </div>
                 <div className="footer__column">
               
-               <p className="footer__p">буду рада присоединиться к крутой команде в роли веб или ux/iu дизайнера</p> 
+               <p className="footer__p">буду рада присоединиться к крутой команде<br />в роли веб или ux/iu дизайнера</p> 
                   
                 </div>
                

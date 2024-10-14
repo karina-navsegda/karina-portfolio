@@ -1,7 +1,7 @@
 .portfolio__name {
 font-family: 'HelveticaNeueCyr';
 font-style: normal;
-font-weight: 550;
+font-weight: 500;
 font-size: 40px;
 line-height: 44x;
 color: #8B8B8B;
@@ -10,7 +10,7 @@ margin: 16px 0 4px;
 
 @media (min-width: 620px) and (max-width: 1100px) {
     .portfolio__name {
-font-weight: 550;
+font-weight: 500;
 font-size: 32px;
 line-height: 36px;
     }
@@ -18,7 +18,7 @@ line-height: 36px;
 
 @media (max-width: 620px) {
     .portfolio__name {
-font-weight: 550;
+font-weight: 500;
 font-size: 32px;
 line-height: 36px;
     }
