@@ -4,12 +4,11 @@
     overflow-x: scroll;
 }
 
-.project__carousel > * { /* Применяем к каждому непосредственному ребенку */
-    max-width: 430px; /* Задаем фиксированную ширину для каждого ребенка */
-    margin-right: 24px; /* Отступ между элементами, если нужно */
-    height: fit-content;
+.project__carousel > * { 
+    max-width: 430px; 
+    margin-right: 24px; 
 }
 
 .project__carousel > :last-child {
-    margin-right: 0; /* Убираем отступ у последнего элемента */
+    margin-right: 0; 
 }
