@@ -1,17 +1,18 @@
 .body {
     font-family: "Inter", Arial, sans-serif;
-    margin: 0 52px;
+    margin: 0 auto;
     max-width: 1336px;
+    padding: 0 52px;
 }
 
 @media (min-width: 620px) and (max-width: 1100px) {
         .body {
-           margin: 0 32px;
+           padding: 0 32px;
         }
     }
 
 @media (max-width: 620px) {
     .body {
-        margin: 0 20px;
+        padding: 0 20px;
     }
 }
